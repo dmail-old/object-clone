@@ -1,0 +1,11 @@
+{
+	"name": "@dmail/object-clone",
+	"version": "0.0.1",
+	"dependencies": {
+		"@dmail/property": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dmail/object-clone"
+	}
+}
