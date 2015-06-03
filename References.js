@@ -19,4 +19,4 @@ var References = {
 References.constructor.prototype = References;
 References = References.constructor;
 
-module.exports = References;
+return References;

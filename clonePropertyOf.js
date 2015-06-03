@@ -1,1 +1,3 @@
-module.exports = require('./clone').clonePropertyOf;
+var clone = include('./clone');
+
+return clone.clonePropertyOf;

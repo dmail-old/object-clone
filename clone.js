@@ -5,8 +5,8 @@ https://gist.github.com/NV/1396086
 
 */
 
-var implementProperty = require('@dmail/property').implementProperty;
-var References = require('./References');
+var implementProperty = include('dmail/property').implementProperty;
+var References = include('./References');
 
 var clonePropertyOf, clonePropertiesOf;
 if( 'getOwnPropertyDescriptor' in Object ){
@@ -110,7 +110,7 @@ function cloneOf(object, references){
 	});
 });
 
-module.exports = {
+return {
 	clonePropertyOf: clonePropertyOf,
 	clonePropertiesOf: clonePropertiesOf,
 	clone: clone

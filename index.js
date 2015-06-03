@@ -1,4 +1,5 @@
-var clone = require('./clone').clone;
+var clone = include('./clone').clone;
 
-module.exports = clone;
 Object.clone = clone;
+
+return clone;
